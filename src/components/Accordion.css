@@ -1,0 +1,32 @@
+.accordion {
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+
+.accordion-title {
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  background-color: #9dbbd5;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-title:hover {
+  background-color: #f1f1f1;
+}
+
+.accordion-content {
+  padding: 2px 10px 2px 10px;
+  background-color: #fff;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
